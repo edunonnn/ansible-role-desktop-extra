@@ -4,4 +4,4 @@
   apt:
     name:
       - shutter # feature-rich screenshot program
-      update_cache: yes
+    update_cache: yes
