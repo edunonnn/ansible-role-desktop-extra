@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-role-desktop-extra
+- name: Install Desktop extra packages
+  apt:
+    name:
+      - shutter # feature-rich screenshot program
+      update_cache: yes
